@@ -1,0 +1,27 @@
+# -----------------------------------------------------------------
+# .gitignore
+# Bare Minimum Git
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore temp tableau files that windows creates
+
+*.twbr
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
